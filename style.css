@@ -1,0 +1,46 @@
+body {
+    margin: 0px !important;
+}
+
+.header {
+  background-color: #00B7EB;
+  text-align: center;
+}
+
+.hero {
+    background-color: #FF0000;
+    text-align: center;
+    flex: center;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+
+}
+.content {
+    background-color: #00FF00;
+    flex: 50%;
+}
+.sidebar {
+    background-color: #800080;
+    flex: 50%;
+
+}
+
+@media screen and (max-width: 640px) {
+  .column {
+      flex-grow: 2;
+  }
+   .container {
+       display: flex;
+       text-align: center;
+       flex-direction: column;
+
+   }
+}
+
+.footer {
+  background-color: #444444;
+  text-align: center;
+}
